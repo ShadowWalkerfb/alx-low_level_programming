@@ -1,3 +1,9 @@
  - Debugging
 
-c debuging respositorie.
+c debuging respositorie
+
+
+
+
+
+debugging session
