@@ -7,11 +7,9 @@
  */
 int main(void)
 {
-char low;
-for (low = 'a'; low <= 'z'; low++)
-putchar(low);
-for (low = 'A'; low <= 'Z'; low++)
-putchar(low);
+int d;
+for (d = '0'; d <= '9'; d++)
+putchar(d);
 putchar('\n');
 return (0);
 }

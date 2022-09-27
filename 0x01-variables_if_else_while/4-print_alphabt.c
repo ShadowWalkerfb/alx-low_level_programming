@@ -1,25 +1,20 @@
-#include<stdio.h>
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
- *
- * Description: print all aplhabet letters except q and e
- *
  * Return: Always 0 (Success)
-*/
-
+ */
 int main(void)
 {
-	char ch = 'a';
-
-	while (ch <= 'z')
-	{
-		if (ch == 'e' || ch == 'q')
-			++ch;
-		putchar(ch);
-		++ch;
-	}
-	putchar('\n');
-
-	return (0);
+char low, e, q;
+e = 'e';
+q = 'q';
+for (low = 'a'; low <= 'z'; low++)
+{
+if (low != e && low != q)
+putchar(low);
+}
+putchar('\n');
+return (0);
 }
